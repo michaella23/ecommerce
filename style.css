@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    height: 3em;
+    align-items: center;
+}
+
+header * {
+    height: 80%;
+}
+
+nav {
+    display: none;
+}
+
+header,
+header div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
